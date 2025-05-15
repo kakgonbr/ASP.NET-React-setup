@@ -37,5 +37,5 @@ namespace reactTest.Server
 
             app.Run();
         }
-    
+    }
 }
