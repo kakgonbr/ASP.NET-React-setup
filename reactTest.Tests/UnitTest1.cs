@@ -7,7 +7,7 @@ namespace reactTest.Tests
         [Fact]
         public void Test1()
         {
-            reactTest.Server.Target.doSomething().Should().BeFalse();
+            reactTest.Server.Target.doSomething().Should().BeTrue();
         }
     }
 }
