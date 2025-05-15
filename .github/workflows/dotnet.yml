@@ -27,5 +27,5 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Build React app
-      working-directory: react.client
+      working-directory: reacttest.client
       run: npm run build
