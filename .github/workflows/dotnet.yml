@@ -26,5 +26,9 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Publish
-      run: dotnet publish
+    - name: Install npm dependencies
+      working-directory: reacttest.client
+      run: npm install
+    - name: Build React app
+      working-directory: reacttest.client
+      run: npm run build
