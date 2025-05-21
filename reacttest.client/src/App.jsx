@@ -37,7 +37,7 @@ function App() {
             <p>This component demonstrates fetching data from the server. Also, test8!!!!!!!!!!!!!!</p>
             {contents}
         </div>
-
+    );
     
     async function populateWeatherData() {
         const response = await fetch('weatherforecast');
