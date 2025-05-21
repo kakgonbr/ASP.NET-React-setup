@@ -33,11 +33,11 @@ function App() {
 
     return (
         <div>
-            <h1 id="tableLabel">Weather forecast</h1>
+            <h1 id="tableLabel">NOT Weather forecast</h1>
             <p>This component demonstrates fetching data from the server. Also, test8!!!!!!!!!!!!!!</p>
             {contents}
         </div>
-    );
+
     
     async function populateWeatherData() {
         const response = await fetch('weatherforecast');
